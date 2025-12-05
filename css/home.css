@@ -1,1 +1,174 @@
 
+/* Ly Nam Anh */
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Google font */
+.voltaire-regular {
+  font-family: "Voltaire", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 3 Main components */
+>>>>>>> cf20a6d (second commit)
+body {
+  background-color: #f9fff9;
+}
+
+header {
+  background-color: #e8f5e9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #e8f5e9;
+  padding: 20px 0;
+  margin-top: 50px;
+  text-align: center;
+}
+
+<<<<<<< HEAD
+=======
+/* Nav bar */
+>>>>>>> cf20a6d (second commit)
+.nav-link {
+  color: #2e7d32 !important;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #2e7d32;
+  color: #fff !important;
+}
+
+.nav-link.active {
+  background-color: #43a047;
+  color: #fff !important;
+}
+
+<<<<<<< HEAD
+=======
+/* ====== HOME SECTION ====== */
+>>>>>>> cf20a6d (second commit)
+.section {
+  padding: 90px 0;
+  transition: all 0.4s ease;
+}
+
+.section:hover {
+  background-color: #f1fff1;
+}
+
+<<<<<<< HEAD
+=======
+/* Fade-in transition */
+>>>>>>> cf20a6d (second commit)
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+<<<<<<< HEAD
+=======
+/* Img hover */
+>>>>>>> cf20a6d (second commit)
+.img-hover:hover {
+  transform: scale(1.05);
+  transition: 0.4s ease;
+}
+
+<<<<<<< HEAD
+/* Responsive */
+@media (max-width: 768px) {
+  .section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  .section img {
+    margin-top: 20px;
+    width: 90%;
+  }
+
+  header .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .hero-sub {
+    font-size: 1rem;
+  }
+
+  footer form .col-md-8,
+  footer form .col-md-4 {
+    width: 100%;
+  }
+}
+=======
+/* ====== ACTION PAGE ====== */
+.section-box {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s;
+}
+
+.section-box:hover {
+  transform: translateY(-5px);
+}
+
+/* ====== ABOUT PAGE ====== */
+.member-box {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s;
+}
+
+.member-box:hover {
+  transform: translateY(-5px);
+}
+
+.member-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #d4f8d4;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+/* ====== QUIZ PAGE ====== */
+.quiz-box {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* hidden from user */
+.hidden {
+  display: none;
+}
+>>>>>>> cf20a6d (second commit)
